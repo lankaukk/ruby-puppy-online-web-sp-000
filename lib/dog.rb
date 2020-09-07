@@ -23,7 +23,9 @@ class Dog
   end
   
   def self.print_all
-    puts self.name
+    Dog.each do |item|
+      puts item
+    end
   end
   
 end
