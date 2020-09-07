@@ -23,7 +23,7 @@ class Dog
   end
   
   def self.print_all
-    puts Dog.name
+    puts name
   end
   
 end
